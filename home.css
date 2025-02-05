@@ -1,0 +1,26 @@
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    position: relative;
+    left:20px;
+    color: royalblue;
+    font-size: xxx-large;
+    font-family: "Courier New", monospace;
+}
+
+.Buttons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 0;
+}
+
+.Button {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
