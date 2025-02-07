@@ -4,17 +4,21 @@ body {
     background-attachment: fixed;
 }
 
-h1 {
-    position: relative;
-    left:20px;
+.Top {
+    position: sticky;
+}
+
+.Title {
+    position: sticky;
+    margin-left: 30px;
     color: royalblue;
-    font-size: xxx-large;
+    font-size: x-large;
     font-family: "Courier New", monospace;
 }
 
 .Buttons {
-    position: fixed;
-    top: 20px;
+    position: absolute;
+    top: 0;
     right: 20px;
     font-size: 0;
 }
@@ -22,5 +26,25 @@ h1 {
 .Button {
     width: 50px;
     height: 50px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.Sidebar {
+    position: absolute;
+    margin-left: 30px;
+    top: 120px;
+    bottom: 40px;
+    width: 200px;
+    color: aquamarine;
+    background-color: rgba(19, 19, 71, 0.5);
+    border: 4px solid midnightblue;
+}
+
+.SidebarOption {
+    font-family: "Cascadia Mono", monospace;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    color: deepskyblue;
 }
