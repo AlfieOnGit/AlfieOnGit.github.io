@@ -69,7 +69,8 @@ body {
 .content {
     position: sticky;
     left: 300px;
-    top: 120px;
+    /*top: 120px;*/
+    margin-top: 130px;
     width: 80%;
     height: 80%;
     bottom: 40px;
