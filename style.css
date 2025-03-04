@@ -37,9 +37,10 @@ body {
     margin-left: 30px;
 }
 
-.Button {
+.Icon {
     width: 50px;
     height: 50px;
+    vertical-align: middle;
 }
 
 .Sidebar {
@@ -55,11 +56,15 @@ body {
 
 .Sidebar-Option {
     display: inline-block;
+    box-sizing: border-box;
     font-family: "Cascadia Mono", monospace;
     margin-top: 20px;
     margin-left: 20px;
     margin-right:20px;
+    padding: 5px;
+    width: calc(100% - 20px * 2);
     color: deepskyblue;
+    background-color: rgba(0, 191, 255, 0.2);
     text-decoration: none;
 }
 
@@ -73,9 +78,9 @@ body {
 }
 
 .content-box {
-    position: relative;
     width: 75%;
     margin: 20px;
+    float: left;
 }
 
 .content-text {
@@ -95,5 +100,10 @@ body {
 
 .lightgreen {
     background-color: rgba(00, 142.5, 0, 0.5);
-    border: 4px solid rgb(00, 120, 120);
+    border: 4px solid forestgreen;
+}
+
+.yellow {
+    background-color: rgba(225, 225, 0, 0.5);
+    border: 4px solid orange;
 }
