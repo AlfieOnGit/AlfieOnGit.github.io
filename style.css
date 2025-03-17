@@ -81,9 +81,9 @@ body {
 .content {
     display: table;
     position: relative;
-    left: 300px;
+    right: 20px;
     top: 90px;
-    width: 80%;
+    width: calc(100% - 300px);
     bottom: 10px;
 }
 
