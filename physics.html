@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Alfie - Physics</title>
+  <link rel="icon" href="images/Icon.png">
+</head>
+
+<body>
+<div class="Top">
+  <div class="Title"><b>Physics</b></div>
+
+  <!-- Buttons at the top right of the screen -->
+  <div class="Buttons Buttons-Margin">
+
+    <!-- GitHub icon -->
+    <div class="Button-Container">
+      <a href="https://github.com/AlfieOnGit" target="_blank">
+        <img class="Icon" src="images/GitHub.png" alt="GitHub">
+      </a>
+    </div>
+
+    <!-- Email icon -->
+    <div class="Button-Container">
+      <a href="mailto:alfiejay@mail.com">
+        <img class="Icon" src="images/Email.png" alt="Email">
+      </a>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="Sidebar">
+  <a class="Sidebar-Option" href="index.html">HOME</a><br>
+  <a class="red Sidebar-Option" style="border: 0;" href="history.html">HISTORY</a><br>
+  <a class="orange Sidebar-Option" style="border: 0;" href="physics.html"><b><u>PHYSICS</u></b></a><br>
+  <a class="purple Sidebar-Option" style="border: 0;" href="rendering.html">RENDERING</a><br>
+</div>
+
+<div class="content floats-right">
+
+  <!--  2nd Dissertation  -->
+  <div class="content-box red" style="width: 85%;">
+    <div class="content-text">
+
+      <div style="font-size: 25px;"><b><u>Collision Detection Optimisation Dissertation</u></b> <i>2025</i></div>
+      <i>Master's level extended scientific research paper</i>
+
+      <br><br>
+
+      For the final part of my master's degree, I designed a 3-week-long research project investigating the effect of
+      several collision detection optimisations. This project was programmed using a university-provided bespoke basic
+      game engine using C++. No physics libraries were used - All physics calculations were programmed by myself.
+
+      <br><br>
+
+      Optimisations investigated:
+      <ul>
+        <li>Passive-collision culling</li>
+        <li>Static-collision culling</li>
+        <li>Bounding AABB volumes</li>
+        <li>Bounding sphere volumes</li>
+        <li>Quadtrees and octrees</li>
+        <li>k-d trees</li>
+      </ul>
+
+      <div class="Content-Buttons">
+        <div style="margin-left: 20px;">
+          <a href="https://imgur.com/a/5wTdjxJ" target="_blank">
+            <img class="Icon" style="width: 40px; height: 40px;" src="images/Photos.png" alt="Album">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--  Group Project  -->
+  <div class="content-box lightgreen floats-right" style="width: 85%;">
+    <div class="content-text">
+
+      <div style="font-size: 25px;"><b><u>Dungeon Crawler</u></b> <i>2025</i></div>
+      <i>Master's level group project</i>
+
+      <br><br>
+
+      For 9 weeks, I worked alongside 7 other master's degree students to produce a 3D, cross-platform, multiplayer
+      game. We used a university-provided library to create our own engine, complete with a component system, an event
+      system, scene hierarchy, modular saving and a world editor. Only we focused so hard on our engine that
+      our actual game didn't turn out to be very fun.
+
+      <br><br>
+
+      Most of my contributions to this project were physics-based. When we started, we only had some very basic AABB
+      collision detection and, quite literally, no optimisation. However, I also ended up designing the procedural
+      generation strategy, which needed to use collision detection instead of a grid-based layout. To achieve this, I
+      had to program quaternion mathematics to check for collisions with different orientations of room prefabs in the
+      dungeon.
+
+      <br><br>
+
+      Engine features I programmed:
+      <ul>
+        <li>Event and scene systems</li>
+        <li>OBB collision detection</li>
+        <li>Collision spatial acceleration</li>
+        <li>Procedural generation algorithm</li>
+        <li>Quaternion mathematics</li>
+        <li>Transform calculations handling inheritance</li>
+      </ul>
+
+      <div class="Content-Buttons">
+        <div style="margin-left: 20px;">
+          <a href="https://github.com/Alasdair-PB/CSC8508/wiki/Events" target="_blank">
+            <img class="Icon" style="width: 40px; height: 40px;" src="images/Website.png" alt="Website">
+          </a>
+        </div>
+
+        <div style="margin-left: 20px;">
+          <a href="https://github.com/Alasdair-PB/CSC8508" target="_blank">
+            <img class="Icon" style="width: 40px; height: 40px;" src="images/GitHub.png" alt="GitHub">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--  One Cute Tabby, Not Too Shabby  -->
+  <div class="content-box yellow" style="width: 85%;">
+    <div class="content-text">
+
+      <div style="font-size: 25px;"><b><u>One Cute Tabby, Not Too Shabby</u></b> <i>2024</i></div>
+      <i>Advanced game technologies</i>
+
+      <br><br>
+
+      For my third and final taught content module, we were taught about how game engines implement core game
+      technologies, such as physics, AI and networking. Our coursework was to take inspiration from the game "Little
+      Kitty, Big City" and design a basic game that included such technologies.
+
+      <br><br>
+
+      Features included:
+      <ul>
+        <li>CMake usage</li>
+        <li>Collision detection and resolution</li>
+        <li>Application of forces</li>
+        <li>Function pointer AI behaviour</li>
+        <li>State machines</li>
+        <li>Screen management using pushdown automata</li>
+      </ul>
+
+      <div class="Content-Buttons">
+        <div style="margin-left: 20px;">
+          <a href="https://youtu.be/HRobdcnP094" target="_blank">
+            <img class="Icon" style="width: 40px; height: 40px;" src="images/YouTube.png" alt="YouTube">
+          </a>
+        </div>
+
+        <div style="margin-left: 20px;">
+          <a href="https://github.com/AlfieOnGit/CSC8503" target="_blank">
+            <img class="Icon" style="width: 40px; height: 40px;" src="images/GitHub.png" alt="GitHub">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
